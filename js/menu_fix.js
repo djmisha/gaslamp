@@ -1,0 +1,1 @@
+!function(e){e(document).ready(function(){var i=e("#toplevel_page_et_divi_options");if(i.length){var t=i.find(".wp-first-item");"Divi"===t.find("a").text()&&t.remove()}})}(jQuery);
