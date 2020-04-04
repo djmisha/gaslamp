@@ -340,10 +340,10 @@ blockquote { border-color: #2ea3f2 }
 }
 
 @media all and (max-width: 980px) {
-	#main-footer .container {
-		padding-left: 20px;
-	    padding-right: 20px;
-	}
+    #main-footer .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 .logo_helper {
@@ -4150,9 +4150,12 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important }
     float: left;
     width: 100%;
     margin-bottom: 5px!important;
-	font-size:15px!important;
+    font-size:15px!important;
 }
 
+
+
+/* CUSTOM Navigation*/
 
 
 
@@ -12124,6 +12127,36 @@ span.comment_date {
 
 
 
+li#menu-item-23890 a {
+    display: block;
+    border-radius: 6px;
+    border: 1px solid #7094de;
+    color: red !important;
+    font-weight: bold !important;
+    padding: 3px !important;
+}
+
+/* Now Open */  
+
+.page-id-23525 .et_pb_text.et_pb_module.et_pb_bg_layout_light {
+    margin-bottom: 100px !important;
+}
+
+
+@media(max-width:768px) {
+    li#menu-item-23890 a {
+        display: inline-block;
+        border-radius: 4px;
+        border: 1px solid blue;
+        color: red !important;
+    }   
+    .page-id-23525 .et_pb_text.et_pb_module.et_pb_bg_layout_light {
+        margin-bottom: 60px !important;
+    }
+}
+
+
+
 /* Hide Blog Header Images*/
 
 .single-post .et_pb_module.et_pb_fullwidth_image.et_pb_fullwidth_image_0 {
@@ -12240,16 +12273,16 @@ footer input {
 }
 
 .home .et_pb_fullwidth_header .header-content h1 {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 .home .et_pb_fullwidth_header .header-content p {
-	line-height: 18px;
+    line-height: 18px;
 }
 
 
 .home .et_pb_fullwidth_header .et_pb_fullwidth_header_container {
-	width: 100%;
+    width: 100%;
 }
 
 
@@ -12259,13 +12292,13 @@ footer input {
         padding-top: 60px;
         min-height: 650px;
     }
-	.home .et_pb_fullwidth_header .header-content h1 {
-		font-size: 36px;
+    .home .et_pb_fullwidth_header .header-content h1 {
+        font-size: 36px;
         padding-bottom: 20px;
-	}
-	.home .et_pb_fullwidth_header .header-content p em {
-		font-size: 16px;
-	}
+    }
+    .home .et_pb_fullwidth_header .header-content p em {
+        font-size: 16px;
+    }
 }
 
 
@@ -12287,14 +12320,14 @@ footer input {
     text-decoration: underline;
 }
 .home .et_pb_fullwidth_header .header-content p em {
-	font-weight: blog;
-	font-style: normal;
-	font-size: 14px;
+    font-weight: blog;
+    font-style: normal;
+    font-size: 14px;
 }
 
 
 .home .et_pb_section.et_pb_fullwidth_section {
-	/*position: relative;*/
+    /*position: relative;*/
 }
 
 .home .et_pb_fullwidth_header .header-content em a {
