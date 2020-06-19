@@ -12411,7 +12411,7 @@ footer input {
 
 
 .home .et_pb_section.et_pb_fullwidth_section.et_pb_section_0.et_section_regular:after {
-    content: 'Photo by Justin Brown (CC BY-NC-SA 2.0)';
+    /* content: 'Photo by Justin Brown (CC BY-NC-SA 2.0)'; */
     font-size: 11px;
     margin-left: 9px;
     color: #fff;
