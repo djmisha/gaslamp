@@ -17421,6 +17421,6 @@ input#searchsubmit {
 
 /* Heart of San Diego Page */
 
-.page-id-24254 .footer-widgets ..footer-widget:nth-of-type(3) {
+.page-id-24254 .footer-widgets .footer-widget:nth-of-type(3) {
     display: none;
 }
