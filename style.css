@@ -11659,7 +11659,7 @@ span.comment_date {
         .et_pb_column_1_2
         .et_pb_gutters3.et_pb_row_inner
         .et_pb_module {
-        margin-bottom: 10px;
+        margin-bottom: 5.82%;
     }
     .et_pb_gutters3 .et_pb_column_1_3,
     .et_pb_gutters3.et_pb_row .et_pb_column_1_3 {
@@ -17419,18 +17419,8 @@ input#searchsubmit {
     }
 }
 
-.page-id-24254 .et_pb_gutters3 .et_pb_column_1_2 .et_pb_module,
-.page-id-24254 .et_pb_gutters3.et_pb_row .et_pb_column_1_2 .et_pb_module,
-.page-id-24254
-    .et_section_specialty
-    .et_pb_gutters3.et_pb_row
-    .et_pb_column_1_2
-    .et_pb_module,
-.page-id-24254
-    .et_section_specialty
-    .et_pb_row
-    .et_pb_column_1_2
-    .et_pb_gutters3.et_pb_row_inner
-    .et_pb_module {
-    margin-bottom: 0 !important;
+/* Heart of San Diego Page */
+
+.page-id-24254 .footer-widgets ..footer-widget:nth-of-type(3) {
+    display: none;
 }
