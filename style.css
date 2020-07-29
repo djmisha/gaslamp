@@ -17424,3 +17424,21 @@ input#searchsubmit {
 .page-id-24254 #footer-widgets .footer-widget:nth-of-type(3) {
     display: none !important;
 }
+
+/*  Directory Stuff  */
+
+.wpbdp-listing-excerpt {
+    clear: both;
+}
+
+.wpbdp-listing .listing-thumbnail {
+    float: none !important;
+}
+
+.wpbdp-listing .listing-thumbnail img {
+    width: 200px;
+}
+
+.wpbdp-listing .listing-details {
+    margin-left: 0 !important;
+}
