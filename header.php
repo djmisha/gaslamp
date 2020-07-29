@@ -38,9 +38,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- // Google Ads -->
 
 <!-- MAIL CHIMP POP UP FORMS -->
-
+<?php  if (!is_page(24254)) { // not on Heart of San Diego page?>
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/364b92d0aa2995bc92b5c9ddc/3638ac1cefdb04742f40f67f8.js");</script>
-
+<?php } ?>
 <!-- // MAIL CHIMP POP UP FORMS -->
 
 
@@ -55,8 +55,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     echo '<script type=\'text/javascript\' src=\'https://www.gaslamp.org/wp-content/themes/Gaslampnew/js/twenty/jquery.twentytwenty.js?ver=1.0\'></script>';
     echo '<script type=\'text/javascript\' src=\'https://www.gaslamp.org/wp-content/themes/Gaslampnew/js/twenty/jquery.event.move.js?ver=1.0\'></script>';
     echo '<script>(function($) {$(function() {$(".twentytwenty-container").twentytwenty(); }); })(jQuery);</script>';
-}
-?>
+} ?>
 
 <?php  if (is_page(22409)) : // Parking Page Tracker?>
 	<script>for(var params={tagId:"bdd44beb2fb3b0b0402dd57b4fe5db8c",pings:6,interval:10,partners:true},defaults={key:encodeURIComponent(window.location.origin+window.location.pathname),origin:encodeURIComponent(window.location.origin+window.location.pathname),pings:1,interval:10,amount:1},i=0;i<Object.keys(defaults).length;i++){var key=Object.keys(defaults)[i];void 0===params[key]&&(params[key]=defaults[key])}var getQParam=function(t){var e=t.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]"),n=new RegExp("[\\?&]"+e+"=([^&#]*)").exec(location.search);return null===n?"":decodeURIComponent(n[1].replace(/\+/g," "))};params.tr=getQParam("tr");var f=document.createElement("iframe"),args=Object.keys(params).filter(function(t){return params[t]}).map(function(t){return t+"="+params[t]}),queryString="?"+args.join("&");f.setAttribute("src","https://analytics.rtbiq.com/opq3.html"+queryString),f.setAttribute("style","visibility:hidden;position:absolute;width:0;height:0"),document.body.appendChild(f);var displayMessage=function(t){t.data&&"trigger-1p"===t.data&&hostOpq(params)};window.addEventListener("message",displayMessage);var getCookieData=function(t){try{for(var e=document.cookie.split(";"),n=0;n<e.length;n++){for(var i=e[n];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(t))return i.substring(t.length+1,i.length)}return null}catch(t){return null}},getSessionData=function(t){try{return sessionStorage.getItem(t)}catch(t){return null}},ping=function(t){void 0===window.optiqCount&&(window.optiqCount=0);var e=Object.assign({},t);if(0<window.optiqCount){var n=parseInt(window.optiqCount*t.interval,10);e.key+="-"+n+"seconds"}e.c=e.iq_s,e.ev=e.key;var i="?"+Object.keys(e).filter(function(t){return e[t]}).map(function(t){return t+"="+e[t]}).join("&"),a=new XMLHttpRequest;a.open("GET","//platform.rtbiq.com/events/"+i,!0),a.send(),1<t.pings&&t.tr&&(window.optiqCount+=1,window.optiqCount<t.pings&&setTimeout(ping,1e3*t.interval,t))},hostOpq=function(t){if(getQParam("tr")){var e=getQParam("tr");try{sessionStorage.setItem("tr",e)}catch(t){}try{var n=new Date;attributionPeriod=3,n.setTime(n.getTime()+24*attributionPeriod*60*60*1e3);var i="expires="+n.toUTCString();document.cookie="iq_p="+e+"; path=/;"+i}catch(t){}}else if(getSessionData("tr"))e=sessionStorage.getItem("tr");else e=getCookieData("iq_p");var a=getCookieData("iq_s")||"";if(!a)for(var r="abcdef0123456789",o=0;o<20;o++)a+=r.charAt(Math.floor(Math.random()*r.length)),document.cookie="iq_s="+a+"; path=/";t.iq_s=a,t.tr=e,ping(t)};</script>
