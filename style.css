@@ -17437,15 +17437,18 @@ input#searchsubmit {
     width: 48%;
 }
 
-.wpbdp-listing .listing-title a, .wpbdp-listing .listing-title h2 
-{
-    text-align: center;
+.listing-title,
+.wpbdp-listing .listing-title a,
+.wpbdp-listing .listing-title h2 {
     margin-top: 10px;
     display: block;
-    color: black;
-    font-weight: normal;
-    font-size: 105%;
-    border-bottom: none;
+    color: black !important;
+    font-weight: normal !important;
+    font-size: 20px !important;
+}
+
+.wpbdp-listing .listing-title {
+    border-bottom: none !important;
 }
 
 .wpbdp-listing-excerpt {
