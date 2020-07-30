@@ -17434,10 +17434,10 @@ input#searchsubmit {
 }
 
 #wpbdp-listings-list > div {
-    width: 40%;
+    width: 48%;
 }
 
-#listing-title {
+.listing-title {
     text-align: center;
     margin-top: 10px;
     display: block;
