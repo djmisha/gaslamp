@@ -17427,6 +17427,26 @@ input#searchsubmit {
 
 /*  Directory Stuff  */
 
+#wpbdp-listings-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#wpbdp-listings-list > div {
+    width: 40%;
+}
+
+#listing-title {
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    color: black;
+    font-weight: normal;
+    font-size: 105%;
+    border-bottom: none;
+}
+
 .wpbdp-listing-excerpt {
     clear: both;
 }
@@ -17436,9 +17456,15 @@ input#searchsubmit {
 }
 
 .wpbdp-listing .listing-thumbnail img {
-    width: 200px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .wpbdp-listing .listing-details {
     margin-left: 20px !important;
+}
+
+.wpbdp-listing-excerpt.even,
+.wpbdp-listing-excerpt.odd {
+    background: #eee;
 }
