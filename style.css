@@ -17437,7 +17437,8 @@ input#searchsubmit {
     width: 48%;
 }
 
-.listing-title {
+.wpbdp-listing .listing-title a, .wpbdp-listing .listing-title h2 
+{
     text-align: center;
     margin-top: 10px;
     display: block;
